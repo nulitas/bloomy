@@ -79,6 +79,9 @@ export const InfiniteMovingCards = ({
         className
       )}
     >
+      <h1 className="text-xl font-bold text-center mb-4 group-hover:bg-black">
+        what othe<span className="bg-[#2694ca] text-white">r people say:</span>
+      </h1>
       <ul
         ref={scrollerRef}
         className={cn(
