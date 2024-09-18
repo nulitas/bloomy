@@ -8,15 +8,15 @@ import {
 } from "@/app/components/ui/navbar-menu";
 import { cn } from "@/lib/utils";
 
-export function NavbarDemo() {
+export function Navbar() {
   return (
     <div className="relative w-full flex items-center justify-center">
-      <Navbar className="top-2" />
+      <NavbarTemplate className="top-2" />
     </div>
   );
 }
 
-function Navbar({ className }: { className?: string }) {
+function NavbarTemplate({ className }: { className?: string }) {
   const [active, setActive] = useState<string | null>(null);
   return (
     <div

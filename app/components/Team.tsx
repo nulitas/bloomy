@@ -61,7 +61,7 @@ export const people: People[] = [
 
 const Team = () => {
   return (
-    <>
+    <div>
       <h1 className="text-xl font-bold text-center mb-4 group-hover:bg-black">
         <span className="bg-[#2694ca] text-white">contri</span>butors
       </h1>
@@ -69,7 +69,7 @@ const Team = () => {
       <div className="flex flex-row items-center justify-center mb-10 w-full">
         <AnimatedTooltip items={people} />
       </div>
-    </>
+    </div>
   );
 };
 
