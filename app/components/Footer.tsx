@@ -11,7 +11,7 @@ export function Footer() {
           speed="fast"
         />
       </div>
-      <div className="flex flex-col w-full bg-[#2694ca] border-t-2 border-black p-20 text-white font-semibold">
+      <div className="flex flex-col w-full bg-[#2694ca] p-20 text-white font-semibold">
         <span className="text-2xl font-bold">CH2-PS086</span>
         <span> Bloomy : Blue Economy</span>
       </div>
